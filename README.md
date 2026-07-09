@@ -67,17 +67,3 @@ You'll see CHECK 1, CHECK 2, CHECK 3, and a SUMMARY print out. That's it.
 > in the top-right of VS Code while `demo.py` is open — it does the same thing.
 
 ---
-
-## If something goes wrong
-
-- **`python: command not found`** → try `python3` instead of `python` in every command.
-- **`No module named numpy`** → you skipped step 6, or your virtual environment isn't active. Re-run `pip install -r requirements.txt`.
-- **`FileNotFoundError: compound_votes.jsonl`** → you opened the wrong folder; make sure the terminal prompt shows the folder that contains the `.jsonl` files (`ls` on Mac/Linux or `dir` on Windows should list them).
-
----
-
-## What to say while it runs
-
-- CHECK 1: "First I prove it's a real extension — with no data it becomes your exact index, 0.4375."
-- CHECK 2: "On real Compound data, your assumed 0.5 agreement is actually 0.835 — the index was understating alignment by 42×."
-- CHECK 3: "But I test whether that's collusion or just consensus culture — and it's culture. The method can tell the difference."
