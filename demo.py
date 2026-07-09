@@ -170,7 +170,7 @@ print(f"     z-score = {z:+.1f}   p-value = {p:.3f}")
 verdict = "MORE independent than chance" if z < 0 else "slightly above chance"
 print(f"  => Top delegates are {verdict}. No covert bloc: the alignment is consensus culture.")
 
-banner("SUMMARY  -  what to tell the prof")
+banner("SUMMARY")
 print("  1. It reduces to your original index exactly (0.4375). It extends your work.")
 print("  2. Your 0.5 agreement assumption is really 0.835 -> index understates alignment ~42x.")
 print("  3. A permutation test shows that alignment is Compound's CULTURE, not collusion.")
