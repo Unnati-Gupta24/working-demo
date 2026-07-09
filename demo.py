@@ -169,9 +169,3 @@ print(f"     top delegates' actual coordination    = {a_con:.4f}")
 print(f"     z-score = {z:+.1f}   p-value = {p:.3f}")
 verdict = "MORE independent than chance" if z < 0 else "slightly above chance"
 print(f"  => Top delegates are {verdict}. No covert bloc: the alignment is consensus culture.")
-
-banner("SUMMARY")
-print("  1. It reduces to your original index exactly (0.4375). It extends your work.")
-print("  2. Your 0.5 agreement assumption is really 0.835 -> index understates alignment ~42x.")
-print("  3. A permutation test shows that alignment is Compound's CULTURE, not collusion.")
-print("     One number becomes three: capacity, coordination, and behavior under disagreement.\n")
