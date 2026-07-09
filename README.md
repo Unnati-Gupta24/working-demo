@@ -47,8 +47,6 @@ Then activate it:
 - **Windows:** `.venv\Scripts\activate`
 - **Mac/Linux:** `source .venv/bin/activate`
 
-(If VS Code pops up "We noticed a new environment, select it?" → click Yes.)
-
 **6. Install the dependency**
 
 ```
